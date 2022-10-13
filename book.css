@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+:root{
+    --clrouter: #79c476;
+    --clrinner: #f7f9f9;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--clrinner);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    max-width: 920px;
+    margin: auto;
+    width: 80%;
+    flex-direction: column;
+}
+
+h3{
+    font-size: 2.7rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+
+}
+
+form div{
+    display: flex;
+    align-items: center;
+    border: 0.2rem solid rgb(89, 35, 196);
+    width: 100%;
+    margin: 10px 0;
+}
+
+.iconify{
+    background-color: rgb(89, 35, 196);
+    padding: .4rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+input{
+    background-color: white;
+    border: none;
+    outline: none;
+    height: 40px;
+    padding: .4rem;
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+#submit{
+    border: 0.2rem solid rgb(89, 35, 196);
+    padding: .4rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+#submit:hover{
+    background-color: rgb(89, 35, 196);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+
+.form-details{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.form-details div{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
