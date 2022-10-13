@@ -14,7 +14,7 @@ submit.addEventListener('click', (e) => {
     let pBook = document.createElement("p");
     let pAuthor = document.createElement("p");
 
-    img.src = "../images/user.png";
+    img.src = "user.png";
     img.style.width = "200px";
     pName.innerHTML = `<span style="background-color: #D8E137";">Name:</span> ${nameInput.value}`;
     pBook.innerHTML = `<span style="background-color: #4BE137";">Book:</span> ${bookInput.value}`;
